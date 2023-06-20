@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Management App</string>
+    <string name="logo">Logo</string>
+    <string name="login">Login</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="user_icon">User Icon</string>
+    <string name="register">Register</string>
+    <string name="welcome_please_register_an_account">Welcome! Please register an account</string>
+    <string name="project">Project</string>
+    <string name="management">Management</string>
+    <string name="phone_number">Phone Number :</string>
+    <string name="_0000_0000_0000">0000-0000-0000</string>
+    <string name="my_secret_password">My Secret Password</string>
+    <string name="password">Password :</string>
+    <string name="confirm">Confirm</string>
+    <string name="don_t_have_an_account_yet">Don\'t have an account yet?</string>
+    <string name="make_one_now">Make One Now!</string>
+    <string name="sign_in_here">Sign In Here</string>
+    <string name="already_got_an_account">Already got an Account?</string>
+    <string name="name">Name :</string>
+    <string name="my_name_is">My Name Is</string>
+    <string name="decor">Decor</string>
+</resources>
