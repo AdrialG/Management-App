@@ -14,8 +14,10 @@ import com.adrialg.managementapp.databinding.FragmentRegisterBinding
 import com.adrialg.managementapp.ui.verification.fragments.login.LoginFragment
 import com.crocodic.core.api.ApiStatus
 import com.crocodic.core.extension.snacked
-import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+
+private const val ARG_PARAM1 = "param1"
+private const val ARG_PARAM2 = "param2"
 
 class RegisterFragment : BaseFragment<FragmentRegisterBinding>(R.layout.fragment_register) {
 
@@ -58,6 +60,26 @@ class RegisterFragment : BaseFragment<FragmentRegisterBinding>(R.layout.fragment
                 }
             }
         }
+    }
+
+    companion object {
+        /**
+         * Use this factory method to create a new instance of
+         * this fragment using the provided parameters.
+         *
+         * @param param1 Parameter 1.
+         * @param param2 Parameter 2.
+         * @return A new instance of fragment LoginFragment.
+         */
+        // TODO: Rename and change types and number of parameters
+        @JvmStatic
+        fun newInstance(param1: String, param2: String) =
+            LoginFragment().apply {
+                arguments = Bundle().apply {
+                    putString(com.adrialg.managementapp.ui.verification.fragments.register.ARG_PARAM1, param1)
+                    putString(com.adrialg.managementapp.ui.verification.fragments.register.ARG_PARAM2, param2)
+                }
+            }
     }
 
 }
