@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "306722386327",
+    "project_id": "management-app-23422",
+    "storage_bucket": "management-app-23422.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306722386327:android:1fab34c39b4bda7c6214d2",
+        "android_client_info": {
+          "package_name": "com.adrialg.managementapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306722386327-gj7a9vmv5o6geqv2r19bicjb46kobfph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD7w8oKSOYdAJ4iAt8Xhfva0pkTOhQmi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306722386327-gj7a9vmv5o6geqv2r19bicjb46kobfph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

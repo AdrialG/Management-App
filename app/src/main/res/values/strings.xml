@@ -8,8 +8,6 @@
     <string name="welcome_please_register_an_account">Welcome! Please register an account</string>
     <string name="project">Project</string>
     <string name="management">Management</string>
-    <string name="phone_number">Phone Number :</string>
-    <string name="_0000_0000_0000">0000-0000-0000</string>
     <string name="my_secret_password">My Secret Password</string>
     <string name="password">Password :</string>
     <string name="confirm">Confirm</string>
@@ -20,4 +18,6 @@
     <string name="name">Name :</string>
     <string name="my_name_is">My Name Is</string>
     <string name="decor">Decor</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="email">Email :</string>
 </resources>
